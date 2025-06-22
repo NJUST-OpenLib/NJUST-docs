@@ -5,7 +5,7 @@
 
 若您不方便使用 GitHub，点击链接：[https://f.wps.cn/g/meABI0xn/](https://f.wps.cn/g/meABI0xn/)，即可跳转至【WPS 表单】，填写「NJUST 课程攻略共享计划」相关内容。
 
-
+![img](https://contrib.rocks/image?repo=NJUST-OpenLib/NJUST-docs)
 
 ## 基本规则（简明版）
 
