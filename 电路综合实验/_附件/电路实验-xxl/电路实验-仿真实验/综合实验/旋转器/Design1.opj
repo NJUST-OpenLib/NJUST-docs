@@ -1,0 +1,41 @@
+(ExpressProject "Design1"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "25.1 P001 (4349869)  [9/14/2025]-[11/28/25]")
+  (项目类型 "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\design1.dsn"
+      (类型 "原理图设计"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Layout")
+  (Folder "输出")
+  (Folder "参考的项目")
+  (Folder "PSpice 资源"
+    (Folder "仿真配置文件")
+    (Folder "模型库"
+      (Sort User))
+    (Folder "激励文件"
+      (Sort User))
+    (Folder "包括文件"
+      (Sort User)))
+  (Folder "日志")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\大学文件\课程学习\大二上\电路实验仿真\082肖心亮924110800231（评优）\综合实验\旋转器\design1.dsn")
+      (Path "Design Resources"
+         "D:\大学文件\课程学习\大二上\电路实验仿真\082肖心亮924110800231（评优）\综合实验\旋转器\design1.dsn"
+         "SCHEMATIC1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 662"))
+      (Tab 0))))

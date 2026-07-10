@@ -14,4 +14,5 @@
 25年电路考试难度又上一个台阶，所以请大家一定要认真听讲！课前预习，课上认真，课后复习。~~毕竟这是一门你期末考试作弊都无法做到的课程~~。以及推荐24级电光院同学**柒课堂**制作的网课[点击观看视频](https://www.bilibili.com/video/BV1RdyGBBEzJ/?spm_id_from=333.1387.homepage.video_card.click&vd_source=cb85c848a5fef1ab510a4da73939a311) ，作为期末复习还是很不错的。
 >柒课堂也有许多其他课程的网课哦。
 
+—— yekong6663
 

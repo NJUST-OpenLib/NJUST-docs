@@ -1,0 +1,27 @@
+.ALIASES
+V_V2            V2(+=N235851 -=N23675 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS23657@SOURCE.VDC.Normal(chips)
+R_R5            R5(1=N23631 2=N23497 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS23697@ANALOG.R.Normal(chips)
+R_R3            R3(1=N23631 2=0 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS23729@ANALOG.R.Normal(chips)
+V_V             V(+=N23435 -=0 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS23559@SOURCE.VDC.Normal(chips)
+V_PRINT4          PRINT4(1=N23435 2=N23443 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS23391@SPECIAL.IPRINT.Normal(chips)
+R_R1            R1(1=N23443 2=N23447 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS23401@ANALOG.R.Normal(chips)
+R_R4            R4(1=N23447 2=N23497 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS23465@ANALOG.R.Normal(chips)
+X_U1B           U1B(+=N23447 -=N23631 V+=N23507 V-=N23675 OUT=N23497 ) CN
++@旋转器之二极管.SCHEMATIC1(sch_1):INS23529@OPAMP.LM158.Normal(chips)
+V_V1            V1(+=N23507 -=N235851 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS23575@SOURCE.VDC.Normal(chips)
+X_U2            U2(A=N23679 C=N23459 P=0 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS23603@OPTO.BPW32.Normal(chips)
+R_R2            R2(1=N23447 2=N23459 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS23417@ANALOG.R.Normal(chips)
+V_PRINT6          PRINT6(1=N23679 2=0 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS23749@SPECIAL.IPRINT.Normal(chips)
+CN @旋转器之二极管.SCHEMATIC1(sch_1):INS23621@SPECIAL.VPRINT2.Normal(chips)
+X_U3B           U3B(+=N25092 -=N25276 V+=N25152 V-=N25324 OUT=N25142 ) CN
++@旋转器之二极管.SCHEMATIC1(sch_1):INS25174@OPAMP.LM158.Normal(chips)
+X_U4            U4(A=N25104 C=0 P=0 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS25248@OPTO.BPW32.Normal(chips)
+R_R10           R10(1=N25276 2=0 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS25378@ANALOG.R.Normal(chips)
+R_R9            R9(1=N25276 2=N25142 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS25346@ANALOG.R.Normal(chips)
+R_R7            R7(1=N25092 2=N25104 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS25062@ANALOG.R.Normal(chips)
+V_V4            V4(+=N25152 -=N252301 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS25220@SOURCE.VDC.Normal(chips)
+R_R8            R8(1=N25092 2=N25142 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS25110@ANALOG.R.Normal(chips)
+V_V5            V5(+=N252301 -=N25324 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS25306@SOURCE.VDC.Normal(chips)
+R_R6            R6(1=N25080 2=N25092 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS25046@ANALOG.R.Normal(chips)
+V_V6            V6(+=N25080 -=0 ) CN @旋转器之二极管.SCHEMATIC1(sch_1):INS25955@SOURCE.VSIN.Normal(chips)
+.ENDALIASES

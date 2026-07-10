@@ -1,0 +1,126 @@
+(ExpressProject "旋转器之二极管"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "25.1 P001 (4349869)  [9/14/2025]-[11/30/25]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library"
+      (File "E:\Cadence OrCAD\Cadence\tools\capture\library\pspice\analog.olb"
+        (DisplayName
+           "E:\Cadence OrCAD\Cadence\tools\capture\library\pspice\analog.olb")
+        (Type "Schematic Library"))
+      (File
+         "E:\Cadence OrCAD\Cadence\tools\capture\library\pspice\breakout.olb"
+        (DisplayName
+           "E:\Cadence OrCAD\Cadence\tools\capture\library\pspice\breakout.olb")
+        (Type "Schematic Library"))
+      (File "E:\Cadence OrCAD\Cadence\tools\capture\library\pspice\source.olb"
+        (DisplayName
+           "E:\Cadence OrCAD\Cadence\tools\capture\library\pspice\source.olb")
+        (Type "Schematic Library"))
+      (File "E:\Cadence OrCAD\Cadence\tools\capture\library\pspice\special.olb"
+        (DisplayName
+           "E:\Cadence OrCAD\Cadence\tools\capture\library\pspice\special.olb")
+        (Type "Schematic Library")))
+    (NoModify)
+    (File "旋转器之二极管.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "TRUE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User))
+    (Folder "Simulation Profiles"
+      (ActiveProfile ".\旋转器之二极管-pspicefiles\schematic1\bias.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\旋转器之二极管-pspicefiles\schematic1\bias.sim"
+        (DisplayName "SCHEMATIC1-bias")
+        (Type "PSpice Profile"))))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (PartMRUSelector
+    (VSIN
+      (FullPartName "VSIN.Normal")
+      (LibraryName
+         "E:\CADENCE ORCAD\CADENCE\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (ld271
+      (FullPartName "ld271.Normal")
+      (LibraryName
+         "E:\CADENCE ORCAD\CADENCE\TOOLS\CAPTURE\LIBRARY\PSPICE\OPTO.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "E:\CADENCE ORCAD\CADENCE\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VDC
+      (FullPartName "VDC.Normal")
+      (LibraryName
+         "E:\CADENCE ORCAD\CADENCE\TOOLS\CAPTURE\LIBRARY\PSPICE\SOURCE.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (L
+      (FullPartName "L.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (VSTIM
+      (FullPartName "VSTIM.Normal")
+      (LibraryName "..\..\LIBRARY\PSPICE\SOURCSTM.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory "LIBRARY\PSPICE")
+  (MPSSessionName "PC")
+  (Folder "Logs")
+  (Folder "PSpice 资源"
+    (Folder "仿真配置文件"
+      (活动配置文件 ".\旋转器之二极管-pspicefiles\schematic1\二极管.sim")
+      (File.PSpice.{09528990-3187-11D2-BC7B-00A0C90CBF91}
+         ".\旋转器之二极管-pspicefiles\schematic1\二极管.sim"
+        (显示命令 "SCHEMATIC1-二极管")
+        (类型 "EDIF 仿真模型")))
+    (Folder "模型库"
+      (Sort User))
+    (Folder "激励文件"
+      (Sort User))
+    (Folder "包括文件"
+      (Sort User)))
+  (Folder "日志")
+  (Folder "设计资源"
+    ("PSPICE 重新生成网表标志" "FALSE"))
+  (GlobalState
+    (FileView
+      (Path "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 686"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 28 5 1302 28 708")
+        (Scroll "178 17")
+        (Zoom "174")
+        (Occurrence "/"))
+      (Path
+         "D:\大学文件\课程学习\大二上\电路实验仿真\082肖心亮924110800231（评优）\综合实验\旋转器之二极管\旋转器之二极管.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

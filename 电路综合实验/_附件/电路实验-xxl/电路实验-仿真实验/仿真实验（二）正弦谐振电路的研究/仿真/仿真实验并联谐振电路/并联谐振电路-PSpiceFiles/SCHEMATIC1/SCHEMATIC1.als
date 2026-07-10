@@ -1,0 +1,15 @@
+.ALIASES
+C_C1            C1(1=N15993 2=0 ) CN @并联谐振电路.SCHEMATIC1(sch_1):INS16091@ANALOG.C.Normal(chips)
+L_L1            L1(1=N15993 2=0 ) CN @并联谐振电路.SCHEMATIC1(sch_1):INS16047@ANALOG.L.Normal(chips)
+R_R3            R3(1=N15993 2=0 ) CN @并联谐振电路.SCHEMATIC1(sch_1):INS16071@ANALOG.R.Normal(chips)
+V_Us1           Us1(+=N15985 -=0 ) CN @并联谐振电路.SCHEMATIC1(sch_1):INS16015@SOURCE.VSIN.Normal(chips)
+R_R2            R2(1=N15985 2=N15993 ) CN @并联谐振电路.SCHEMATIC1(sch_1):INS15963@ANALOG.R.Normal(chips)
+C_C2            C2(1=N16578 2=N16472 ) CN @并联谐振电路.SCHEMATIC1(sch_1):INS16442@ANALOG.C.Normal(chips)
+R_R5            R5(1=N16344 2=N16472 ) CN @并联谐振电路.SCHEMATIC1(sch_1):INS16422@ANALOG.R.Normal(chips)
+R_R4            R4(1=N16336 2=N16344 ) CN @并联谐振电路.SCHEMATIC1(sch_1):INS16314@ANALOG.R.Normal(chips)
+L_L2            L2(1=N16551 2=N16472 ) CN @并联谐振电路.SCHEMATIC1(sch_1):INS16398@ANALOG.L.Normal(chips)
+V_Us2           Us2(+=N16336 -=0 ) CN @并联谐振电路.SCHEMATIC1(sch_1):INS16366@SOURCE.VSIN.Normal(chips)
+V_PRINT1          PRINT1(1=0 2=N16472 ) CN @并联谐振电路.SCHEMATIC1(sch_1):INS16506@SPECIAL.IPRINT.Normal(chips)
+V_PRINT2          PRINT2(1=N16551 2=N16344 ) CN @并联谐振电路.SCHEMATIC1(sch_1):INS16535@SPECIAL.IPRINT.Normal(chips)
+V_PRINT3          PRINT3(1=N16578 2=N16344 ) CN @并联谐振电路.SCHEMATIC1(sch_1):INS16562@SPECIAL.IPRINT.Normal(chips)
+.ENDALIASES

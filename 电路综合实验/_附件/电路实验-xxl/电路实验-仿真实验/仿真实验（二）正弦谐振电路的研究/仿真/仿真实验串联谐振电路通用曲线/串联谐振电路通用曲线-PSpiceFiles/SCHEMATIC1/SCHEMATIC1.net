@@ -1,0 +1,9 @@
+* source 串联谐振电路通用曲线
+R_R         N15074 N14901  200 TC=0,0 
+L_L         N14961 0  200m  TC=0,0 
+V_V1         N14893 0  AC 5V
++SIN 0V 5V 100 0 0 0
+C_C         N14901 N14961  0.022u  TC=0,0 
+V_PRINT1         N14893 N15074 0V
+          
+.PRINT        AC       IM(V_PRINT1)

@@ -1,0 +1,27 @@
+.ALIASES
+R_R5            R5(1=N19254 2=N19162 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS19212@ANALOG.R.Normal(chips)
+R_R4            R4(1=N19262 2=N19162 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS19232@ANALOG.R.Normal(chips)
+V_V             V(+=N19292 -=0 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS19328@SOURCE.VDC.Normal(chips)
+R_R3            R3(1=0 2=N19254 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS19773@ANALOG.R.Normal(chips)
+V_PRINT1          PRINT1(1=N19292 2=N19949 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS19933@SPECIAL.IPRINT.Normal(chips)
+V_PRINT2          PRINT2(1=N20039 2=0 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS19966@SPECIAL.IPRINT.Normal(chips)
+R_R             R(1=N19903 2=N20039 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS20015@ANALOG.R.Normal(chips)
+CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS20203@SPECIAL.VPRINT2.Normal(chips)
+R_R1            R1(1=N19949 2=N19262 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS20634@ANALOG.R.Normal(chips)
+R_R2            R2(1=N19262 2=N19903 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS20674@ANALOG.R.Normal(chips)
+X_U1A           U1A(+=N19262 -=N19254 V+=N21571 V-=N21578 OUT=N19162 ) CN
++@Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS21416@OPAMP.LM158.Normal(chips)
+V_V1            V1(+=N21571 -=N215431 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS21533@SOURCE.VDC.Normal(chips)
+V_V2            V2(+=N215431 -=N21578 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS21549@SOURCE.VDC.Normal(chips)
+V_V4            V4(+=N23894 -=N239721 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS23962@SOURCE.VDC.Normal(chips)
+R_R11           R11(1=0 2=N24020 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS24106@ANALOG.R.Normal(chips)
+V_V5            V5(+=N239721 -=N24052 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS24034@SOURCE.VDC.Normal(chips)
+R_R9            R9(1=N23846 2=0 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS23990@ANALOG.R.Normal(chips)
+R_R6            R6(1=N23822 2=N23834 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS23788@ANALOG.R.Normal(chips)
+R_R10           R10(1=N24020 2=N23884 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS24074@ANALOG.R.Normal(chips)
+R_R8            R8(1=N23834 2=N23884 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS23852@ANALOG.R.Normal(chips)
+X_U1B           U1B(+=N23834 -=N24020 V+=N23894 V-=N24052 OUT=N23884 ) CN
++@Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS23916@OPAMP.LM158.Normal(chips)
+R_R7            R7(1=N23834 2=N23846 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS23804@ANALOG.R.Normal(chips)
+V_V6            V6(+=N23822 -=0 ) CN @Ðý×ªÆ÷.SCHEMATIC1(sch_1):INS24244@SOURCE.VSIN.Normal(chips)
+.ENDALIASES

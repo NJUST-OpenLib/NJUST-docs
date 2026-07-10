@@ -1,0 +1,269 @@
+
+**** 12/05/25 17:52:52 *** PSpice 25.1.0 (14 September 2025) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-电阻"  [ d:\大学文件\课程学习\大二上\电路实验仿真\082肖心亮924110800231（评优）\综合实验\旋转器\旋转器-pspic
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "电阻.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of E:\Cadence OrCAD\WorkSpace\cdssetup\OrCAD_PSpice\25.1.0\PSpice.ini file:
+.lib "E:\Cadence OrCAD\Cadence\tools\pspice\Library\devparam.txt" 
+.lib "E:\Cadence OrCAD\Cadence\tools\pspice\Library\analog.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.TRAN  0 1 0 
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 旋转器
+R_R5         N19254 N19162  1000 TC=0,0 
+R_R4         N19262 N19162  1000 TC=0,0 
+V_V         N19292 0 10Vdc
+R_R3         0 N19254  1661.64 TC=0,0 
+V_PRINT1         N19292 N19949 0V
+         
+.PRINT        DC I(V_PRINT1) 
+V_PRINT2         N20039 0 0V
+         
+.PRINT        DC I(V_PRINT2) 
+R_R         N19903 N20039  1000 TC=0,0 
+          
+.PRINT         DC V([N19903],[N20039]) 
+R_R1         N19949 N19262  334.60 TC=0,0 
+R_R2         N19262 N19903  334.60 TC=0,0 
+X_U1A         N19262 N19254 N21571 N21578 N19162 LM158
+V_V1         N21571 N215431 100Vdc
+V_V2         N215431 N21578 100Vdc
+V_V4         N23894 N239721 100Vdc
+R_R11         0 N24020  1661.64 TC=0,0 
+V_V5         N239721 N24052 100Vdc
+R_R9         N23846 0  1000 TC=0,0 
+R_R6         N23822 N23834  334.60 TC=0,0 
+R_R10         N24020 N23884  1000 TC=0,0 
+R_R8         N23834 N23884  1000 TC=0,0 
+X_U1B         N23834 N24020 N23894 N24052 N23884 LM158
+R_R7         N23834 N23846  334.60 TC=0,0 
+V_V6         N23822 0 DC 10 AC 10
++SIN 0 10 50 0 0 0
+
+**** RESUMING 电阻.cir ****
+.END
+
+**** 12/05/25 17:52:52 *** PSpice 25.1.0 (14 September 2025) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-电阻"  [ d:\大学文件\课程学习\大二上\电路实验仿真\082肖心亮924110800231（评优）\综合实验\旋转器\旋转器-pspic
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1A.x_lm158.dx 
+          IS  800.000000E-18 
+          RS    1            
+
+
+               X_U1A.x_lm158.dy 
+          IS  800.000000E-18 
+          RS    1.000000E-03 
+         CJO   10.000000E-12 
+
+
+               X_U1B.x_lm158.dx 
+          IS  800.000000E-18 
+          RS    1            
+
+
+               X_U1B.x_lm158.dy 
+          IS  800.000000E-18 
+          RS    1.000000E-03 
+         CJO   10.000000E-12 
+
+
+**** 12/05/25 17:52:52 *** PSpice 25.1.0 (14 September 2025) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-电阻"  [ d:\大学文件\课程学习\大二上\电路实验仿真\082肖心亮924110800231（评优）\综合实验\旋转器\旋转器-pspic
+
+
+ ****     BJT MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U1A.x_lm158.qx 
+               PNP             
+       LEVEL    1            
+          IS  800.000000E-18 
+          BF  166.7          
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.2          
+           D     .52         
+
+
+               X_U1B.x_lm158.qx 
+               PNP             
+       LEVEL    1            
+          IS  800.000000E-18 
+          BF  166.7          
+          NF    1            
+          BR    1            
+          NR    1            
+         ISS    0            
+          RE    0            
+          RC    0            
+         CJE    0            
+         VJE     .75         
+         CJC    0            
+         VJC     .75         
+         MJC     .33         
+        XCJC    1            
+         CJS    0            
+         VJS     .75         
+          KF    0            
+          AF    1            
+          CN    2.2          
+           D     .52         
+
+
+**** 12/05/25 17:52:52 *** PSpice 25.1.0 (14 September 2025) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-电阻"  [ d:\大学文件\课程学习\大二上\电路实验仿真\082肖心亮924110800231（评优）\综合实验\旋转器\旋转器-pspic
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N19162)   15.2650 (N19254)    9.5298 (N19262)    9.5298 (N19292)   10.0000     
+
+(N19903)    7.1405 (N19949)   10.0000 (N20039)    0.0000 (N21571)  111.3300     
+
+(N21578)  -88.6660 (N23822)    0.0000 (N23834) 43.45E-06 (N23846) 32.55E-06     
+
+(N23884) 160.6E-06 (N23894)  101.8000 (N24020) 128.4E-06 (N24052)  -98.1950     
+
+(N215431)   11.3340                   (N239721)    1.8048                       
+
+(X_U1A.x_lm158.6)-905.2E-06           (X_U1A.x_lm158.7)   15.8380               
+
+(X_U1A.x_lm158.8)   15.8380           (X_U1A.x_lm158.9)    0.0000               
+
+(X_U1B.x_lm158.6) 340.2E-06           (X_U1B.x_lm158.7) 168.1E-06               
+
+(X_U1B.x_lm158.8) 168.1E-06           (X_U1B.x_lm158.9)    0.0000               
+
+(X_U1A.x_lm158.10)   10.1380          (X_U1A.x_lm158.11)  -88.6260              
+
+(X_U1A.x_lm158.12)  -88.6260          (X_U1A.x_lm158.13)   10.1240              
+
+(X_U1A.x_lm158.14)   10.1240          (X_U1A.x_lm158.53)  109.8300              
+
+(X_U1A.x_lm158.54)  -88.0160          (X_U1A.x_lm158.90)   11.4700              
+
+(X_U1A.x_lm158.91)   40.0000          (X_U1A.x_lm158.92)  -40.0000              
+
+(X_U1A.x_lm158.99)   11.3340          (X_U1B.x_lm158.10)     .6081              
+
+(X_U1B.x_lm158.11)  -98.1550          (X_U1B.x_lm158.12)  -98.1550              
+
+(X_U1B.x_lm158.13)     .5941          (X_U1B.x_lm158.14)     .5941              
+
+(X_U1B.x_lm158.53)  100.3000          (X_U1B.x_lm158.54)  -97.5450              
+
+(X_U1B.x_lm158.90) 149.4E-06          (X_U1B.x_lm158.91)   40.0000              
+
+(X_U1B.x_lm158.92)  -40.0000          (X_U1B.x_lm158.99)    1.8048          
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_V         -1.405E-03
+    V_PRINT1     1.405E-03
+    V_PRINT2     7.141E-03
+    V_V1        -2.204E-02
+    V_V2        -2.204E-02
+    V_V4        -2.204E-02
+    V_V5        -2.204E-02
+    V_V6         1.298E-07
+    X_U1A.x_lm158.vb  -9.052E-09
+    X_U1A.x_lm158.vc   9.457E-11
+    X_U1A.x_lm158.ve   1.153E-10
+    X_U1A.x_lm158.vlim   1.147E-02
+    X_U1A.x_lm158.vlp  -2.853E-11
+    X_U1A.x_lm158.vln  -5.147E-11
+    X_U1B.x_lm158.vb   3.402E-09
+    X_U1B.x_lm158.vc   1.003E-10
+    X_U1B.x_lm158.ve   1.109E-10
+    X_U1B.x_lm158.vlim   1.494E-07
+    X_U1B.x_lm158.vlp  -4.000E-11
+    X_U1B.x_lm158.vln  -4.000E-11
+
+    TOTAL POWER DISSIPATION   8.83E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 12/05/25 17:52:52 *** PSpice 25.1.0 (14 September 2025) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-电阻"  [ d:\大学文件\课程学习\大二上\电路实验仿真\082肖心亮924110800231（评优）\综合实验\旋转器\旋转器-pspic
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .28
+
