@@ -1,0 +1,22 @@
+** Profile: "SCHEMATIC1-串联谐振电路"  [ d:\大学文件\课程学习\大二上\电路实验仿真\082肖心亮924110800231（评优）\仿真实验（二）正弦谐振电路的研究\仿真\仿真实验串联谐振电路\串联谐振电路-pspicefiles\schematic1\串联谐振电路.sim ] 
+
+** Creating circuit file "串联谐振电路.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of E:\Cadence OrCAD\WorkSpace\cdssetup\OrCAD_PSpice\25.1.0\PSpice.ini file:
+.lib "E:\Cadence OrCAD\Cadence\tools\pspice\Library\devparam.txt" 
+.lib "E:\Cadence OrCAD\Cadence\tools\pspice\Library\analog.lib" 
+.lib "nom.lib" 
+
+*Analysis directives: 
+.AC LIN 10000 100 5000
+.OPTIONS ADVCONV
+.OPTIONS FILEMODELSEARCH
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+.END

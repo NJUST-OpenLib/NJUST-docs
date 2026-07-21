@@ -1,0 +1,23 @@
+* source ´®ÁªÐ³ÕñµçÂ·
+V_V1         N14677 0  AC 5V
++SIN 0V 5V 100 0 0 0
+L_L         N14745 0  200m  TC=0,0 
+R_R         N14677 N14685  200 TC=0,0 
+C_C         N14685 N14745  0.1u  TC=0,0 
+C_C1         N15114 N15174  0.1u  TC=0,0 
+V_V2         N15106 0  AC 5V
++SIN 0V 5V 100 0 0 0
+L_L1         N15174 0  200m  TC=0,0 
+R_R1         N15781 N15114  200 TC=0,0 
+C_C2         N15373 N15433  0.1u  TC=0,0 
+V_V3         N15365 0  AC 5V
++SIN 0V 5V 100 0 0 0
+R_R2         N15365 N15373  200 TC=0,0 
+L_L2         N15433 0  200m  TC=0,0 
+V_PRINT1         N15106 N15781 0V
+          
+.PRINT        AC       IM(V_PRINT1)
+           
+.PRINT         AC       VM([N15114],[N15174])
+           
+.PRINT         AC       VM([N15174],[0])
